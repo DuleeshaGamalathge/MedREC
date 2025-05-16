@@ -1,0 +1,203 @@
+
+
+.bg-light-blue {
+    background-color: #cce6ff/* Light blue color */
+  }
+
+  
+
+
+  .content {
+    background-image: url("/assets/imgba.png"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    padding-top: 50px; 
+}
+    .row .col-background img.img-fluid{
+        width: 592px;
+        height: 400px;
+    }
+
+  
+.btn{
+    background-color: #3c4cf5;
+    color: #FFFFFF;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vw;
+    border-radius: 18px;
+    
+
+}
+.calcu{
+    padding-top: 70px;
+}
+
+
+#dropdownMenuButton1{
+    color:#83848A;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+.dropdown-item{
+    color: #83848A;
+}
+
+.rec177{
+    background-color: #BFC2DA;
+    width: 592px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding:30px;
+    padding-left: 150px;
+    border-radius: 25px;
+
+}
+
+.img-fluid{
+    width: 700px;
+    height: 500px;
+    padding-top: 50px;
+}
+
+.form-control{
+    text-align: center;
+    
+}
+
+
+
+h1{
+    border-bottom:3px solid #000000;
+    font-family: sans-serif;
+    font-size: 32px;
+}
+
+.matric {
+    width: 100%; /* Ensures the container takes full width of the viewport */
+    margin-left:-260px;
+    margin-top: 20px;
+    text-decoration-color: #070815;
+    
+}
+.matric .text {
+    font-size: 16px; /* Set your desired font size */
+    text-align: center; /* Center the text horizontally */
+    margin-left: 60px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .rec177{
+        width: auto;
+
+    }
+    .matric .text {
+        font-size: 16px;
+        text-align: auto; 
+        margin-left: 100px;
+    }
+
+}
+
+
+
+
+
+.rec177{
+    background-color: #BFC2DA;
+    width: 592px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding:30px;
+    padding-left: 150px;
+}
+
+.form-control{
+    text-align: center;
+}
+
+
+
+
+.header{
+  
+    padding-top: 120px;
+   padding-left: 100px;
+   padding-right: 100px;
+
+}
+
+h1{
+    border-bottom:3px solid #000000;
+}
+
+.matric {
+    width: 100%; /* Ensures the container takes full width of the viewport */
+    margin-left:-260px;
+    text-decoration-color: #070815;
+}
+.text {
+    font-size: 16px; /* Set your desired font size */
+    text-align: center; /* Center the text horizontally */
+    padding-left: auto;
+}
+ 
+
+@media screen and (max-width: 600px) {
+    .matric .text {
+        font-size: 16px;
+        text-align: auto; 
+        margin-left: 250px;
+    }
+    .rec177{
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .matric .text {
+        font-size: 16px;
+        text-align: auto; 
+        margin-left: 170px;
+    }
+    .rec177{
+        width: auto;
+    }
+}
+
+
+
+
+
+
+
+footer{
+    background: #3f51b5;
+  
+  }
+  .social-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-icons a {
+    font-size: 24px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 2vw;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: lightgray;
+  }

@@ -1,5 +1,5 @@
 .bg-light-blue {
-  background-color: #cce6ff;/* Light blue color */
+  background-color: #678d9d;/* Light blue color */
   backdrop-filter: blur(5px);
   
 
@@ -19,7 +19,7 @@
 
 /* css button */
 .cssbuttons-io-button {
-  background-image: linear-gradient(19deg, #21D4FD 0%, #7c88f2 100%);
+  background-color: #678d9d;
   color: white;
   font-family: inherit;
   padding: 0.35em;
@@ -91,7 +91,7 @@
   top: 40%;
   transform: translateY(-50%);
   text-align: left;
-  color:darkblue;
+  color:#0f4662;
   padding-left: 50px;
   margin-top: 10vw;
 

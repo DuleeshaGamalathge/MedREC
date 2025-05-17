@@ -1,8 +1,8 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light-blue " style="position: fixed; top: 0; width: 100%;  z-index: 1000;">
+<nav class="navbar navbar-expand-lg navbar-light bg-light-blue" style="position: fixed; top: 0; width: 100%;  z-index: 1000;">
   <div class="container">
     <!-- Logo on the left -->
-    <a class="navbar-brand" href="#">
-      <img class="img-fluid" src="assets/logo1-01.png" width="200" height="100">
+    <a class="navbar-brand" href="#" id="navlogo">
+      <img src="assets/logo.png" height="60">
     </a>
 
     <!-- Button for mobile navigation toggle -->
@@ -16,13 +16,13 @@
       <ul class="navbar-nav" >
         <!-- Your Angular Material buttons -->
         <li class="nav-item" style="margin-right: 3vw;">
-          <button mat-button color="primary" routerLink="/home_page">Home</button>
+          <button mat-button color="black" routerLink="/home_page">Home</button>
         </li>
         <li class="nav-item" style="margin-right: 3vw;">
-          <button mat-button color="primary" routerLink="/blogs_page">Blogs & Article</button>
+          <button mat-button color="black" routerLink="/blogs_page">Blogs & Article</button>
         </li>
         <li class="nav-item" style="margin-right: 3vw;">
-          <button mat-button color="primary" routerLink="/matrix_page">Health Matrix</button>
+          <button mat-button color="black" routerLink="/matrix_page">Health Matrix</button>
         </li>
         <li class="nav-item" style="margin-right: 3vw;">
           <mat-menu #menu="matMenu">
@@ -34,12 +34,12 @@
               <mat-icon>sync_disabled</mat-icon>
               Register
             </button>
-            <button mat-menu-item routerLink="/settings-page">
+            <button mat-menu-item routerLink="/doctor_dashboard">
               <mat-icon>settings</mat-icon>
               Settings
             </button>
           </mat-menu>
-          <button mat-icon-button [matMenuTriggerFor]="menu" color="primary" aria-label="Profile">
+          <button mat-icon-button [matMenuTriggerFor]="menu" color="black" aria-label="Profile" >
             <mat-icon>account_circle</mat-icon>
           </button>
         </li>
@@ -258,7 +258,7 @@
   <div class="container">
     <div class="d-flex justify-content-between align-items-center">
       <!-- Logo on the left -->
-      <img src="assets/logonav.png" alt="Logo" width="200" height="80">
+      <img src="assets/logo.png" alt="Logo" height="80">
 
       <!-- Contact details on the right -->
       <div class="contact-details">

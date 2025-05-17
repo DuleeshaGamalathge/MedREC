@@ -19,7 +19,7 @@
 
 /* css button */
 .cssbuttons-io-button {
-  background-color: #678d9d;
+  background-color: #0f4662;
   color: white;
   font-family: inherit;
   padding: 0.35em;
@@ -121,10 +121,13 @@
   box-sizing: border-box;
   cursor: pointer;
   margin: 5px 15px;
-  color: darkblue ;
+  /* color: darkblue ; */
   background-color: #cce6ff;
-  background: linear-gradient(to right, rgba(0, 123, 255, 0.21), rgba(154, 197, 244, 0.11));
+  background: linear-gradient(to right, #8da4af, rgba(154, 197, 244, 0.11));
 
+}
+.card.h3{
+  color: #0f4662;
 }
 
 .row{
@@ -190,7 +193,7 @@
   align-content: center;
   padding-bottom: 50px;
   padding-top: 50px;
-  background: linear-gradient(to right, rgba(0, 123, 255, 0.21), rgba(154, 197, 244, 0.11));
+  background: linear-gradient(to right, #8da4af, rgba(154, 197, 244, 0.11));
   border-radius: 10px;
   margin-bottom: 5vw;
 }
@@ -212,6 +215,7 @@
 
 .custom-line-height{
   line-height: 1.6;
+  font-size: medium;
 }
 
 .card-action{
@@ -223,19 +227,20 @@
 .btn-card1{
   margin-right: 10px;
   padding-right: 20px;
+  background-color: #0f4662;
 
 }
 .btn-card2{
-  background: linear-gradient(to right, rgba(0, 123, 255, 0.51), rgba(30, 87, 153, 0.67));
+  background: linear-gradient(to right, rgba(0, 123, 255, 0.51), #0f4662);
 }
 
 
-.container-fluid{
+/* .container-fluid{
   position: page;
   background-image: url("/assets/imgba.png " ) ;
   background-position: 0px 1000px ;
   
-}
+} */
 
 .row1{
 
@@ -245,7 +250,7 @@
 
 
 footer{
-  background: #3f51b5;
+  background: #0f4662;
 
 }
 .social-icons {
